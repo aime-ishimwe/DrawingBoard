@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <title>Drawing Board</title>
+</head>
+<body>
+    <header>
+        <h1>🎨 Drawing Board</h1>
+    </header>
+    <main>
+        <canvas id="drawingBoard"></canvas>
+        <div class="controls">
+            <label for="colorPicker">Choose Color:</label>
+            <input type="color" id="colorPicker" value="#000000">
+            <label for="lineWidth">Line Width:</label>
+            <input type="range" id="lineWidth" min="1" max="10" value="2">
+        </div>
+    </main>
+    <footer>
+        <p>Happy Drawing! ✍️</p>
+    </footer>
+    <script lang="JavaScript" src="JavaScript/index.js"></script>
+</body>
+</html>
